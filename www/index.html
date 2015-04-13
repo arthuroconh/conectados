@@ -41,7 +41,7 @@
                 dataType:'json', 
                 error:function(jqXHR,text_status,strError){}, 
                 success:function(data){ 
-                $("#result").html("<img width='100px' src='http://desarrollotricolor.com.ve/tclima/productos/"+data+"'>");  
+                $("#result").html("<img width='400px' src='http://desarrollotricolor.com.ve/tclima/productos/"+data+"'>");  
                 } 
             });
         } 
@@ -52,6 +52,7 @@
         width: 100%;
         margin-top: 20%;
         height: 80%;
+        padding: 2px;
         font-size: 15px;
         border: 1px solid black;
     }
@@ -68,7 +69,6 @@
             <center><b>Results</b></center> 
             <section id="result"></section>
         </div>
-        <img width='100px' src='http://desarrollotricolor.com.ve/tclima/productos/005.jpg'>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
